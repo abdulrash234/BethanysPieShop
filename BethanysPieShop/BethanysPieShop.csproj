@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200724085502_InitialMigration.cs" />
+    <Compile Remove="Migrations\20200724085502_InitialMigration.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Pages\" />
   </ItemGroup>
 
